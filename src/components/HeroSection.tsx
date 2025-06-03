@@ -39,14 +39,14 @@ const HeroSection = () => {
             The voice that refused to be silenced.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg">
+          <div className="flex flex-col sm:flex-row gap-4 relative z-10">
+            <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 text-lg font-semibold">
               Get the Book
             </Button>
             <Button 
               variant="outline" 
               size="lg" 
-              className="border-white/30 text-white hover:bg-white/10 px-8 py-4 text-lg"
+              className="border-2 border-white/50 text-white hover:bg-white/20 hover:border-white/70 px-8 py-4 text-lg font-semibold bg-transparent backdrop-blur-sm"
               onClick={scrollToAbout}
             >
               Learn More
