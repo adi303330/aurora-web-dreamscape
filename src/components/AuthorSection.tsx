@@ -63,14 +63,14 @@ const AuthorSection = () => {
             </p>
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-12 py-4 text-lg">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center relative z-10">
+            <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white px-12 py-4 text-lg font-semibold">
               Order Now
             </Button>
             <Button 
               variant="outline" 
               size="lg" 
-              className="border-white/30 text-white hover:bg-white/10 px-12 py-4 text-lg"
+              className="border-2 border-white/50 text-white hover:bg-white/20 hover:border-white/70 px-12 py-4 text-lg font-semibold bg-transparent backdrop-blur-sm"
             >
               Learn More
             </Button>
